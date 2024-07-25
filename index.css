@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.top-nav{
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+
+.btn{
+    margin-left: 45%;
+    color: orange;
+    background-color: #f6e9d9;
+    padding: 0.7%;
+    border-radius: 5px;
+    border: none;
+    font-family:monospace;
+    font-size: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 100px;
+    
+}
+
+.logo-container a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #8d9ba6;
+    font-weight: lighter;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    background-color: #f5f5f5;
+}
+
+.login-form {
+    width: 70%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.input-field {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.captcha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e6ffe6;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+
+.captcha img {
+    width: 50px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color:gray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.additional-links {
+    margin: 10px 0;
+}
+
+.additional-links a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.additional-links a{
+    color: gray;
+}
+.social-login{
+    margin-top: 5%;
+    border: none;
+}
+.google {
+    border: none;
+    }
+.facebook {
+    border: none;
+}
+.github {
+    border: none;
+ }
